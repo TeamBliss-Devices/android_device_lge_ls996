@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/ls996/full_ls996.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common BLISS stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_ls996
+PRODUCT_NAME := bliss_ls996
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="z2" \
