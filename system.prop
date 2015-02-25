@@ -1,0 +1,17 @@
+# Radio
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+telephony.lteOnCdmaDevice=1
+telephony.lte.cdma.device=1
+persist.radio.do_not_init_csvt=1
+rild.libargs=-d /dev/smd0
+ril.subscription.types=NV,RUIM
+ro.cdma.subscribe_on_ruim_ready=true
+persist.radio.no_wait_for_card=1
+keyguard.no_require_sim=true
+telephony.sms.pseudo_multipart=1
+ro.telephony.call_ring.multiple=0
+ro.telephony.default_network=10
+ro.ril.def.preferred.network=10
+telephony.lteOnCdmaDevice=0
+telephony.lteOnGsmDevice=1
